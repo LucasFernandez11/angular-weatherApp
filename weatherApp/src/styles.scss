@@ -49,3 +49,8 @@ a{
     padding-top: auto;
     padding-bottom: auto;
 }
+@media (max-width: 900px) {
+    .container {
+      width: 90%;
+    }
+  }
