@@ -1,4 +1,4 @@
-import { environment } from './../../../../environments/environment';
+import { environment } from '../../../../.environments/.environment';
 import { Coord } from './../../../shared/interfaces/weather.interface';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from "@angular/core";
