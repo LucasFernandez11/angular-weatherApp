@@ -1,8 +1,8 @@
+import { environment } from './../../../../environments/environment';
 import { Coord } from './../../../shared/interfaces/weather.interface';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from "@angular/core";
-import { WeatherData } from '@app/shared/interfaces/weather.interface';
-import { environment } from '@env/environment';
+import { WeatherData } from './../../../shared/interfaces/weather.interface';
 import { Observable } from 'rxjs';
 
 @Injectable({providedIn:'root'})

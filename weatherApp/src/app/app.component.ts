@@ -1,4 +1,4 @@
-import { WeatherData } from '@shared/interfaces/weather.interface';
+import { WeatherData } from './shared/interfaces/weather.interface';
 import { Observable } from 'rxjs';
 import { Component } from '@angular/core';
 import { WeatherService } from './pages/weather/services/weather.service';

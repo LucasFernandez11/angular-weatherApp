@@ -1,4 +1,4 @@
-import { WeatherData } from '@app/shared/interfaces/weather.interface';
+import { WeatherData } from 'src/app/shared/interfaces/weather.interface';
 import { Component, Input, OnInit,ChangeDetectionStrategy } from '@angular/core';
 
 
