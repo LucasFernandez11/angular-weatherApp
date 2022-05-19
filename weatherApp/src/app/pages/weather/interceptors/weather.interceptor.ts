@@ -1,4 +1,4 @@
-import { environment } from "src/.environments/.environment";
+import { environment } from "src/environments/environment";
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from "@angular/common/http";
 import { Observable } from "rxjs";
 
