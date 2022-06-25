@@ -14,7 +14,9 @@ html, body, div, input {
 
 body{
     font-family: 'Lato', sans-serif;
-    background-color: $secondary-color;
+    // background-color: $secondary-color;
+    background-image: url('https://img.wallpapic.es/i9758-323-327/medium/cielo-hermoso-nubes-naturaleza-luz-de-sol-fondo-de-pantalla.jpg');
+    background-size: cover;
     font-size: 1rem;
     line-height: 1.5;
     color: $gray;

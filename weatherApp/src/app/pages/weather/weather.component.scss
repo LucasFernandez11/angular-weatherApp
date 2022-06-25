@@ -12,8 +12,8 @@
     margin-bottom: 2.188rem;
     border-top-left-radius: $border-radius-size;
     border-top-right-radius: $border-radius-size;
-    background: url(https://w0.peakpx.com/wallpaper/715/60/HD-wallpaper-starry-sky-new-york-city-scenic-top-view-skyscrapers-beyond-the-clouds-city.jpg);
-
+    background: url('https://w0.peakpx.com/wallpaper/715/60/HD-wallpaper-starry-sky-new-york-city-scenic-top-view-skyscrapers-beyond-the-clouds-city.jpg');
+    
     img {
       position: absolute;
       top: -1.5rem;
@@ -58,7 +58,7 @@
           &--name{
               text-transform: uppercase;
               font-weight: 400;
-              font-size: 0.75rem;
+              font-size: 0.85rem;
               color: $black;              
           }
       }
@@ -73,6 +73,20 @@
             border-right: none;
         }
   }
-
+  .neon{
+   
+   
+    font-size: 25px;
+    text-shadow:
+          0 0 5px rgba(0,178,255,1),
+          0 0 10px rgba(0,178,255,1),
+          0 0 20px rgba(0,178,255,1),
+          0 0 40px rgba(38,104,127,1),
+          0 0 80px rgba(38,104,127,1),
+          0 0 90px rgba(38,104,127,1),
+          0 0 100px rgba(38,104,127,1),
+          0 0 140px rgba(38,104,127,1),
+          0 0 180px rgba(38,104,127,1);
+  }
 
 }

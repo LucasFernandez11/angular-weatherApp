@@ -1,13 +1,31 @@
 @import 'variables';
 
 nav.nav{
+    
     padding: 0.75rem 0.50rem;
-    background-color: $main-color;
+    // background-color: $main-color;
     margin-bottom: 0.75rem;
     .brand{
-        color: $white ;
+        margin-bottom: 40px;
+        // color: $white ;
         font-weight: 600;
         line-height: 1.75rem;
-        font-size: 1.70rem;        
+        // font-size: 1.70rem;        
     }
 }
+.neon{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 200px;
+    text-shadow:
+          0 0 5px rgba(0,178,255,1),
+          0 0 10px rgba(0,178,255,1),
+          0 0 20px rgba(0,178,255,1),
+          0 0 40px rgba(38,104,127,1),
+          0 0 80px rgba(38,104,127,1),
+          0 0 90px rgba(38,104,127,1),
+          0 0 100px rgba(38,104,127,1),
+          0 0 140px rgba(38,104,127,1),
+          0 0 180px rgba(38,104,127,1);
+  }
